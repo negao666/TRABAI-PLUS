@@ -64,15 +64,39 @@ body {
 
 .container__titulo {
 
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
 }
 
 .container__imagem {
     margin: 1em 0 2em 0;
-
 }
+
+.container__texto {
+    margin: 0 6em;
+}
+
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secumdario {
+    align-items: center;
+    margin: 0 12em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
 }
